@@ -5,8 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.exemplos.NotificacoesActivity"
-    android:padding="16dp"
-    android:orientation="vertical">
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:fitsSystemWindows="true">
 
     <TextView
         android:layout_width="wrap_content"
@@ -17,7 +19,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="enviar notificação simples"
+        android:text="Enviar notificação simples"
         android:id="@+id/btn_notificacao"
         />
 </LinearLayout>
